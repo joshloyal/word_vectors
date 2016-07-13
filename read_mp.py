@@ -12,7 +12,7 @@ from joblib import Parallel, delayed
 import numpy as np
 
 filename = 'pretrained/glove.6B.100d.txt'
-debug = True
+debug = False
 
 if debug:
     mp_logger = multiprocessing.log_to_stderr()
